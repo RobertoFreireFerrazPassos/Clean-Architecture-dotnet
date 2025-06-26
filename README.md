@@ -69,6 +69,10 @@ Does it create a new user in a SQL database? Does it notify admin users using a 
 └──  📁 Services
 </pre>
 
+### DTO (Data Transfer Object)
+
+DTO models are simple, lightweight objects designed specifically for transferring data between different layers of an application. Unlike traditional domain models, DTOs are focused solely on data representation and data transfer — they do not contain business logic or methods for behavior.
+
 ## Layer: Infrastructure
 
 This layer implements the Repository abstractions/Interfaces defined in the Application layer.
