@@ -83,6 +83,7 @@ It depends on Application and Domain, but they don’t depend on it. This keeps 
 
 <pre>
 📁 Infra
+├── 📁 Infra.Cross-Cutting
 ├── 📁 Infra.IoC
 ├── 📁 Infra.Database
     ├── 📁 Repositories
@@ -91,6 +92,19 @@ It depends on Application and Domain, but they don’t depend on it. This keeps 
     ├── 📁 HttpClients
     └── 📁 Data
 </pre>
+
+### Cross-Cutting Concerns
+
+Cross-cutting concerns are software aspects that affect the entire application. These are your common application-level functionalities that span several layers and tiers. Cross-cutting concerns should be centralized in one location. This prevents code duplication and tight coupling between components.
+
+Examples:
+- Authentication & Authorization
+- Logging and tracing
+- Exception handling
+- Validation
+- Caching
+
+![Cross-Cutting Concerns](crosscuttingconcerns.png)
 
 ### IoC
 
